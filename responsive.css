@@ -1,0 +1,39 @@
+@media (max-width:1000px){
+    .image {
+        width: 50%;
+    }
+    .band-image img {
+        filter: opacity(1);
+        border-radius: 10px;
+        width: 180px;
+    }
+    .band-image p{
+        display: inline-block;
+        color: white;
+    }
+    .band-image P:hover {
+        display: none;
+        cursor: default;
+    }
+    
+}
+@media (max-width:670px){
+    .image{
+        width: 100%;
+        
+    }
+    .band-image img {
+        filter: opacity(1);
+        border-radius: 10px;
+        width: 180px;
+    }
+    .band-image p{
+        display: inline-block;
+        color: white;
+    }
+    .band-image P:hover {
+        display: none;
+        cursor: default;
+    }
+    
+}
